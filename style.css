@@ -1,0 +1,361 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  
+ font-family: 'Ubuntu', sans-serif;
+ scroll-behavior: smooth;
+}
+nav{
+ 
+  background-color: #27212196;
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0px;
+
+}
+.ullist{
+  
+   width: 50%;
+   /* background-color: aqua; */
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+.list{
+  list-style: none;
+  padding:  22px;
+}
+.list a {
+ color: white;
+  font-weight: bold ;
+ text-decoration: none;
+}
+.list a:hover{
+  color: rgb(83, 84, 85);
+
+}
+.image2{
+  display: none;
+}
+.image1{
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 20%; */
+}
+.image1 img {
+ /* width: 44px; */
+height: 44px;
+border: 1px solid #333333;
+border-radius: 20px;
+margin: 0px 42px;
+}
+.icons{
+ 
+  /* background-color: yellowgreen; */
+  width: 50%;
+  text-align: right;
+  font-size: 33px;
+  color: #333333;
+  
+}
+.fa-brands{
+ padding: 17px  20px;
+align-items: center;
+}
+
+.fa-brands:hover{
+  color: aliceblue;
+}
+.container{
+ color: white;
+ width: 100%;
+ height: 700px;
+background-image: url("Untitled-4.jpg");
+}
+/* .container::after {
+ content: "";
+ position: absolute; */
+
+/* background-image: url("bitcoin-g1dfd0eb64_1920.jpg"); */
+
+/* top: 0px;
+left: 0px;
+
+z-index: -1;
+opacity: 0.89; */
+/* } */
+h2{
+padding: 0px 83px;
+font-size: 75px;
+display: flex;
+flex-wrap: wrap;
+padding-top: 50px;
+}
+.heading{
+
+margin: 29px 43px;
+font-size: 25px;
+padding: 37px;
+display: flex;
+flex-wrap: wrap;
+}
+h4{
+margin: 15px 77px;
+padding: 3px;
+font-size: 20px;
+display: flex;
+flex-wrap: wrap;
+}
+.btn{
+font-size: 15px;
+padding: 0px 21px;
+border: 2px solid black;
+border-radius: 110px;
+margin-left: 218px;
+display: flex;
+flex-wrap: wrap;
+background-color: bisque;
+margin-top: 39px;
+
+}
+.btn:hover{
+background-color: #333333;
+}
+#container2{
+color: white;
+ width: 100%;
+ height: 640px;
+/* background-image: url("gagan.jpg"); */
+background-color: #333333;
+}
+.head{ padding: 50px 83px;
+font-size: 75px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+} 
+.para1,.para2{
+margin: 6px 107px;
+font-size: 25px;
+/* padding: 37px; */
+display: flex;
+flex-wrap: wrap;
+font-style: italic;
+}
+.head2{
+margin: 6px 107px;
+font-size: 39px;
+/* padding: 37px; */
+display: flex;
+flex-wrap: wrap;
+font-style: italic
+}
+
+.yutub{
+
+width: 327px;
+height: 204px;
+margin: 0px 64px;
+/* padding: 0px 52px; */
+border: 2px solid black;
+border-radius: 33px
+}
+.logo{
+  height: 190px;
+    width: 293px;
+    float: right;
+    margin: 0px 100px;
+    /* padding: 0px 100px; */
+    border: 2px solid #333333;
+    border-radius: 30px;
+}
+.container3{
+text-align: center;
+color: rgb(253, 249, 249);
+background-color: rgb(90, 81, 81);
+padding: 50px;
+font-size: 80%;
+}
+.container555{
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 22px 127px;
+  margin: 0px 213px;
+  /* border: 2px solid white;
+  border-radius: 17px; */
+}
+.pic{
+  height: 45px;
+  width: 51px;
+  margin-right: 15px;
+  border: 2px solid #a9079a;;
+  border-radius: 118px;
+}
+.crypto{
+  height: 45px;
+  width: 45px;
+  margin-right: 80px;
+}
+.coin-price{
+  display: flex;
+  flex-wrap: wrap;
+}
+.harman{
+  display: none;
+  font-size: 40px;
+  font-size: 40px;
+  position: absolute;
+  /* float: right; */
+  right: 74px;
+  top: 17px;
+}
+
+@media screen and (max-width:850px){
+  .ullist {
+    /* transition: all 0.7s ease-out; */
+    flex-direction: column;
+    width: 100%;
+  }
+  .icons {
+    /* transition: all 0.7s ease-out; */
+    /* background-color: yellowgreen; */
+    width: 68%;
+  }
+    .harman{
+      display: block;
+    }
+    .navbarr{
+      /* height: 500px; */
+      flex-direction: column;
+      transition: all 0.7s ease-out;
+      /* height: 300px; */
+      height: 76px;
+    }
+    .visibal{
+      opacity: 0;
+    }
+    .image1{
+      display: none;
+    }
+    .image2{
+      margin-top: 17px;
+      display: flex;
+      flex-wrap: wrap;
+      /* width: 20%; */
+    }
+    .image2 img {
+     /* width: 44px; */
+    height: 44px;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    margin: 0px 42px;
+    }
+    h2 {
+      padding: 0px 40px;
+      font-size: 41px;
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 40px;
+      flex-direction: column;
+  }
+  .heading {
+    /* margin: 5px 21px; */
+    /* font-size: 25px; */
+    padding: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+h4 {
+  margin: 0px 50px;
+  /* padding: 0px; */
+  /* font-size: 14px; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.btn {
+  /* font-size: 11px; */
+  padding: 0px 7px;
+  border: 2px solid black;
+  border-radius: 110px;
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: bisque;
+  margin-top: 22px;
+  /* flex-direction: column; */
+}
+.container555 {
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 18px 127px; */
+  /* margin: 0px 115px; */
+  margin-top: 29px;
+  margin-left: 58px;
+}
+
+.pic {
+  height: 45px;
+  width: 51px;
+  margin-right: 15px;
+  border: 2px solid #a9079a;
+  border-radius: 118px;
+}
+.crypto {
+  /* height: 12px; */
+  /* width: 3px; */
+  /* margin: 9px; */
+  padding: 10px 25px;
+}
+.head {
+  padding: 36px 52px;
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.head2 {
+  margin: 6px 74px;
+  font-size: 25px;
+  /* padding: 37px; */
+  display: flex;
+  flex-wrap: wrap;
+  font-style: italic;
+}
+.para1, .para2 {
+  margin: 6px 67px;
+  font-size: 20px;
+  /* padding: 37px; */
+  display: flex;
+  flex-wrap: wrap;
+  font-style: italic;
+}
+.yutub {
+  width: 250px;
+  height: 160px;
+  margin: 9px 40px;
+  /* padding: 0px 52px; */
+  border: 2px solid black;
+  border-radius: 33px;
+}
+.logo {
+  height: 176px;
+  width: 249px;
+  float: right;
+  margin: 0px 70px;
+  /* padding: 0px 100px; */
+  border: 2px solid #333333;
+  border-radius: 30px;
+}
+}

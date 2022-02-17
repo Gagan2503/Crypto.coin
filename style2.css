@@ -1,0 +1,64 @@
+body{
+    background-image: url("Untitled-1.jpg");
+    margin: 0px 117px;
+}
+.table {
+   
+    background-color: #3a1543db;
+    /* margin: auto; */
+    border: 2px solid black;
+    border-radius: 22px;
+}
+.table thead th {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 7px 0px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bolder;
+    color: white;
+}
+ .table tbody {
+    background-color: #fffaeb;
+}
+#leaderboard #cryptocurrencies tr {
+    /* display:block; */
+    clear: both;
+    position: absolute;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+}
+.rank{
+    width: 60px;
+}
+.name{
+    width: 200px;
+}
+.symbol{
+    width: 80px;
+}
+.price{
+    width: 100px;
+}
+.market_cap{
+    width: 150px;
+}
+.circulating_supply{
+    width: 170px;
+}
+.volume_24h{
+    width: 140px;
+}
+.percent_change_24h{
+    width: 100px;
+}
+.cryptocurrency{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    margin: 65px 0px;
+    display: flex;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
