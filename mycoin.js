@@ -81,14 +81,14 @@ function resetBoard() {
     for(var i = 0; i < cryptocurrencies.length; i++) {
         var $item = $(
             "<tr class='cryptocurrency'>" + 
-                "<th class='rank'>" + (i + 1) + "</th>" + 
-                "<td class='name'>" + cryptocurrencies[i].name + "</td>" + 
-                "<td class='symbol'>" + cryptocurrencies[i].symbol + "</td>" + 
-                "<td class='price'>" + cryptocurrencies[i].price + "</td>" + 
-                "<td class='market_cap'>" + cryptocurrencies[i].market_cap + "</td>" + 
-                "<td class='circulating_supply'>" + cryptocurrencies[i].circulating_supply + "</td>" + 
-                "<td class='volume_24h'>" + cryptocurrencies[i].volume_24h + "</td>" + 
-                "<td class='percent_change_24h'>" + cryptocurrencies[i].percent_change_24h + "</td>" +
+                "<th class='rank hlo'>" + (i + 1) + "</th>" + 
+                "<td class='name hlo'>" + cryptocurrencies[i].name + "</td>" + 
+                "<td class='symbol hlo'>" + cryptocurrencies[i].symbol + "</td>" + 
+                "<td class='price hlo'>" + cryptocurrencies[i].price + "</td>" + 
+                "<td class='market_cap hlo'>" + cryptocurrencies[i].market_cap + "</td>" + 
+                "<td class='circulating_supply hlo'>" + cryptocurrencies[i].circulating_supply + "</td>" + 
+                "<td class='volume_24h hlo'>" + cryptocurrencies[i].volume_24h + "</td>" + 
+                "<td class='percent_change_24h hlo'>" + cryptocurrencies[i].percent_change_24h + "</td>" +
             "</tr>"
         );
 
