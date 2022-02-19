@@ -3,7 +3,8 @@ body{
     margin: 0px 117px;
 }
 .table {
-   
+     display: flex;
+    justify-content: center;
     background-color: #3a1543db;
     /* margin: auto; */
     border: 2px solid black;
@@ -11,7 +12,7 @@ body{
 }
 .table thead th {
     font-family: 'Ubuntu', sans-serif;
-    padding: 7px 0px;
+    padding: 22px;
     text-align: center;
     font-size: 21px;
     font-weight: bolder;
@@ -19,6 +20,8 @@ body{
 }
  .table tbody {
     background-color: #fffaeb;
+         display: contents;
+
 }
 #leaderboard #cryptocurrencies tr {
     /* display:block; */
@@ -54,11 +57,13 @@ body{
 }
 .cryptocurrency{
     font-family: 'Ubuntu', sans-serif;
-    font-weight: bolder;
-    margin: 65px 0px;
+    margin: 62px 0px;
     display: flex;
     text-align: center;
     font-size: 17px;
     color: white;
+    border-top: 5px solid #4a1350;;
 }
-
+.hlo{
+    padding: 20px;
+}
