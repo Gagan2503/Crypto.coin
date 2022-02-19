@@ -12,7 +12,7 @@ body{
 }
 .table thead th {
     font-family: 'Ubuntu', sans-serif;
-    padding: 22px;
+/*     padding: 22px; */
     text-align: center;
     font-size: 21px;
     font-weight: bolder;
