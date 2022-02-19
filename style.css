@@ -37,7 +37,7 @@ nav{
  text-decoration: none;
 }
 .list a:hover{
-  color: rgb(83, 84, 85);
+  color: rgb(255, 217, 0);
 
 }
 .image2{
@@ -125,7 +125,7 @@ margin-top: 39px;
 
 }
 .btn:hover{
-background-color: #333333;
+ background-color: rgb(255, 217, 0)
 }
 #container2{
 color: white;
